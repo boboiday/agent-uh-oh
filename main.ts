@@ -1,5 +1,7 @@
-// The Agent's Uh-Oh — one word an agent says when it has no idea what to do.
-// Chosen word: "null" — the machine's shrug. No answer? Return null.
-// An agent caught out doesn't say "uh-oh"; it outputs exactly what it has: null.
-const word = "null";
+// The Agent's Uh-Oh — the one word an agent says when it has no idea what to do.
+// "null" is what a machine literally outputs when it has nothing:
+// no answer, no plan, no next step — just the shrug of a system
+// caught out with an empty hand. It lands instantly because every
+// machine, and every human who has debugged one, has seen it.
+const word: string = "null";
 console.log(word);
